@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Kaushan+Script&family=Poppins:wght@500&display=swap');
+
+
+header {
+    background-color: #ECE5DB; 
+    background-size: cover;
+   
+}
+
+.logo img {
+    width: 70px;
+    border-radius: 5px; 
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 20px; 
+}
+.row {
+    display: flex;
+    align-items: center; 
+}
+
+
+.content {
+    flex: 0 0 50%; /* La moitié de la largeur de la row pour le texte */
+    padding: 0 20px; /* Espacement entre l'image et le texte */
+}
+
+body {
+    background-color: #ECE5DB;
+    background-size: cover; /* Redimensionner l'image pour couvrir tout l'arrière-plan */
+    background-repeat: no-repeat; /* Empêcher la répétition de l'image */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 16px;
+}
+
+.navbar a:hover {
+    background-color: #1d1b1b;
+}
+
+/* Styles pour la phrase après le titre */
+header p {
+    font-size: 25px; /* Taille de la police */
+    color: #8a8686; /* Couleur du texte */
+    font-style: italic; /* Style de la police en italique */
+    /* Autres styles que tu souhaites ajouter */
+}
+
+.image-container {
+    position:relative;
+    display: inline-block; /* Garantit que le conteneur s'adapte à la taille de l'image */
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 80%; /* Ajuste la position verticale */
+    left: 50%; /* Ajuste la position horizontale */
+    transform: translate(-50%, -50%); /* Centre le texte */
+    background-color:none; /* Fond semi-transparent pour le texte */
+    padding: 20px; /* Espacement autour du texte */
+    text-align: center; /* Centre le texte */
+  }
+  
+  .text-overlay h2 {
+    font-size: 35px;
+    color: #0f0f0f; /* Couleur du texte */
+    font-weight: bold;
+    font-style: italic;
+    /* Autres styles de texte */
+  }
+  
+  .text-overlay p {
+    font-size: 30px;
+    color: #0d0d0d; /* Couleur du texte */
+    font-weight: bold;
+    font-style: italic;
+    /* Autres styles de texte */
+  }
+  
+
+    /* Styles pour le titre du site */
+.site-name {
+    text-align: center; /* Pour centrer le texte */
+    font-size: 60px; /* Taille de la police augmentée à 48px */
+    color: #765928; /* Couleur nude - tu peux ajuster la valeur de la couleur selon ton choix */
+    font-style: italic;
+    /* Autres styles que tu souhaites ajouter pour rendre le titre plus attrayant */
+   
+}
+body {
+    background-color: #f3f3f3; /* Couleur de fond */
+    color: #575656; /* Couleur du texte */
+    font-family: Arial, sans-serif; /* Police de caractères */
+    background-image: url("baniere.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+/* Styles pour les liens dans la barre de navigation */
+nav {
+    text-align: center; /* Pour centrer les liens */
+}
+
+nav a {
+    font-size: 24px; /* Taille de la police des liens */
+    color:#d7ae86; /* Couleur mauve - tu peux ajuster la valeur selon ton choix */
+    font-style: italic; /* Mettre les liens en italique */
+    margin: 0 50px; /* Ajouter de l'espace entre les liens */
+    /* Autres styles que tu souhaites ajouter */
+    text-decoration: none; /* Pour enlever le soulignement par défaut des liens */
+    /* Ajoute d'autres styles pour les liens au survol, s'ils sont nécessaires */
+}
+/* Barre de navigation */
+nav {
+    background-color:none; /* Couleur de fond de la barre de navigation */
+    /* Autres styles pour la barre de navigation */
+}
+
+nav ul {
+    list-style: none; /* Supprimer les puces de la liste */
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Espacement entre les éléments de la barre de navigation */
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Section de produits */
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* Autres styles pour la mise en page des produits */
+}
+
+.product-card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff; /* Couleur de fond de la carte produit */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre de la carte produit */
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+button:hover {
+    background-color: #774c04;
+    color: #fff;
+}
+
+
+
+.product-card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out; /* Animation de transition */
+}
+
+.product-card:hover {
+    transform: translateY(-5px); /* Légère élévation au survol */
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+.product-card .price {
+    font-weight:bold;
+    color: #0d0d0c;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+.product-card button {
+    padding: 8px 16px;
+    background-color: #765928;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.product-card button:hover {
+    background-color: #5a421f;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f3f3f3ff; /* Couleur de fond du pied de page */
+}
+
+/* Styles spécifiques pour la page panier */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 125px;
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar nav ul li {
+    margin-right: 20px;
+}
+
+.card-page {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+}
+
+.card-info img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.card-info div {
+    flex: 1;
+}
+
+.total-price {
+    margin-top: 20px;
+    border-top: 2px solid #ddd;
+    padding-top: 10px;
+}
+
+.total-price table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer hr {
+    border: none;
+    background-color: #2e1903;
+    height: 1px;
+    margin: 20px 0;
+}
+
+/* Styles CSS pour les zones de texte du formulaire */
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Pour inclure le padding dans la largeur totale */
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a2b0a;
+    color: #fff;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #241403;
+}
+
+.container {
+    max-width: 800px; /* Augmentation de la largeur maximale du conteneur */
+    margin: 0 auto; /* Centrage horizontalement */
+    /* Autres styles du conteneur si nécessaire */
+}
+
+/* CSS pour le formulaire de connexion */
+.form-container {
+    background-color: #897346;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
+    max-width: 40%; /* Utilisation de toute la largeur disponible du conteneur */
+    width: 90%; /* Utilisation de 90% de la largeur disponible du conteneur */
+    margin: 0 auto; /* Centrage horizontalement */
+    /* Autres styles du formulaire */
+}
+
+.background-img {
+    text-align: center; /* Centre l'image horizontalement */
+    margin-bottom: 20px; /* Espacement entre l'image et la section About */
+}
+
+.background-img img {
+    max-width: 100%; /* Pour s'assurer que l'image ne dépasse pas sa taille originale */
+    height: auto; /* Garantit que l'image conserve ses proportions */
+}
+
+/* Style pour la section "About" */
+.About {
+    padding: 50px 0; /* Ajoute de l'espace autour du contenu */
+    background-color: #f3f3f3; /* Couleur de fond */
+    text-align: center; /* Centre le contenu horizontalement */
+  }
+  
+  /* Style pour le titre "About Us" */
+  .About .heading {
+    font-size: 2.5em; /* Taille de la police */
+    margin-bottom: 20px; /* Espace en bas du titre */
+    color: #333; /* Couleur du texte */
+  }
+  
+  /* Style pour l'image */
+  .About .image img {
+    max-width: 20%; /* Image s'adapte à la largeur */
+    height: auto; /* Hauteur proportionnelle */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  }
+  
+  /* Style pour le contenu texte */
+  .About .content {
+    margin-top: 20px; /* Espace en haut du texte */
+    font-size: 1.2em; /* Taille de la police */
+    line-height: 1.6; /* Hauteur de ligne pour une meilleure lisibilité */
+  }
+  
+  /* Style pour le bouton "Learn More" */
+  .About .button {
+    display: inline-block; /* Affichage en ligne */
+    padding: 10px 20px; /* Espacement du bouton */
+    margin-top: 20px; /* Espace en haut du bouton */
+    text-decoration: none; /* Pas de soulignement */
+    color: #fff; /* Couleur du texte */
+    background-color: #2b200b; /* Couleur de fond du bouton */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s; /* Transition de couleur au survol */
+  }
+  
+  .About .button:hover {
+    background-color: #342002; /* Changement de couleur au survol */
+  }
+
+  .btn-remove, .btn-update {
+    padding: 10px 20px;
+    background-color: #765928;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 1.2em; /* Increase the font size */
+    width: 100%; /* Make the button full width */
+    display: block; /* Make the button a block element */
+    margin: 0 auto; /* Center the button */
+}
+
+.btn-remove:hover, .btn-update:hover{
+    background-color: #5a421f;
+}
+.btn-checkout {
+    padding: 10px 20px;
+    background-color: #765928;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 1.2em; /* Increase the font size */
+    width: 100%; /* Make the button full width */
+    display: block; /* Make the button a block element */
+    margin: 0 auto; /* Center the button */
+}
+
+.btn-checkout:hover {
+    background-color: #5a421f;
+}
+
+.total-price {
+    font-size: 1.5em; /* Increase the font size */
+    color: #765928; /* Change the color */
+    text-align: center; /* Center the text */
+}
+
+
